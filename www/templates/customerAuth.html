@@ -1,0 +1,16 @@
+<ion-view title="customer-auth" id="customer-auth-page">
+    <ion-content padding="true" class="has-header">
+        <form id="customer-auth-form">
+            <label id="customer-auth-phone">
+                <span id="phone-code">+3</span>
+                <input id="phone-number" type="tel" placeholder="{number}">
+            </label>
+            <div id="customer-facebook-login" class="facebook-login">
+                <p>Or sign in with Facebook</p>
+            </div>
+        </form>
+        <div class="auth-check-container">
+          <button ui-sref="customerCheck" id="customer-auth-check">GET PASSCODE</button>
+        </div>
+    </ion-content>
+</ion-view>

@@ -1,0 +1,16 @@
+<ion-view title="worker-auth" id="worker-auth-page">
+    <ion-content padding="true" class="has-header">
+        <form id="worker-auth-form">
+            <label id="worker-auth-phone">
+              <span id="phone-code">+3</span>
+              <input id="phone-number" type="tel" placeholder="{number}">
+            </label>
+            <div id="worker-facebook-login" class="facebook-login">
+                <p>Or sign in with Facebook</p>
+            </div>
+        </form>
+        <div class="auth-check-container">
+          <button ui-sref="workerCheck" id="worker-auth-check">GET PASSCODE</button>
+        </div>
+    </ion-content>
+</ion-view>

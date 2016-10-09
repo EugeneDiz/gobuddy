@@ -1,0 +1,138 @@
+.svg-background {
+  background: url("../img/b2sDLhmLRe2F06fPnAF4_sign-up-bg.svg") no-repeat center bottom;
+  background-color: #fff; }
+
+.padding {
+  padding: 0; }
+
+.signup-logo-container {
+  margin-top: 75px; }
+
+.signup-question {
+  color: #3777c4;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 65px; }
+
+.auth-check-container,
+.signup-buttons-container {
+  text-align: center; }
+
+#customer-signup-btn,
+#worker-signup-btn {
+  width: 286px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 22px;
+  text-transform: uppercase; }
+
+#customer-signup-btn {
+  background-image: -webkit-linear-gradient(top left, #72adff 0%, #4caaff 98%, #4bb6ff 100%);
+  background-image: -o-linear-gradient(top left, #72adff 0%, #4caaff 98%, #4bb6ff 100%);
+  background-image: linear-gradient(to bottom right, #72adff 0%, #4caaff 98%, #4bb6ff 100%);
+  color: #fff;
+  margin-top: 30px; }
+
+#worker-signup-btn {
+  background-color: transparent;
+  border: 1px solid #6faaff;
+  color: #6faaff;
+  margin-top: 15px; }
+
+.facebook-login {
+  color: #5f7a9b;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  margin-top: 60px; }
+
+#customer-auth-check,
+#worker-auth-check {
+  background-color: #6faaff;
+  width: 286px;
+  height: 50px;
+  border-radius: 100px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 15px; }
+
+#customer-auth-phone,
+#worker-auth-phone {
+  border-bottom: 1px solid #e4e4e4;
+  margin: auto;
+  display: block;
+  text-align: center;
+  width: 90%;
+  margin-top: 150px; }
+
+#phone-code,
+#phone-number {
+  display: inline-block;
+  font-weight: 400;
+  color: #000;
+  font-size: 22px;
+  vertical-align: bottom; }
+
+#phone-code {
+  font-size: 22px; }
+
+#customer-check-header,
+#worker-check-header {
+  color: #888;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center; }
+
+#customer-code-number,
+#worker-code-number {
+  color: #3a4149; }
+
+#customer-check-code,
+#worker-check-code {
+  color: #282d32;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 2px;
+  border: none;
+  border-bottom: 1px solid #e4e4e4;
+  width: 80%;
+  display: block;
+  margin: 40px auto;
+  text-align: center; }
+
+#auth-check-receive {
+  color: #888;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center; }
+
+#customer-start-work,
+#worker-start-work {
+  width: 286px;
+  height: 50px;
+  background-color: #6faaff;
+  border: none;
+  display: block;
+  margin: 30px auto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  border-radius: 100px; }
+
+/* temp */
+.profile-picture, #profile-info-block {
+  display: inline-block;
+  vertical-align: bottom; }

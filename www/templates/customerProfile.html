@@ -1,0 +1,44 @@
+<ion-view title="customer-profile" id="customer-profile-page">
+
+  <ion-nav-bar>
+    <ion-nav-buttons side="left">
+     <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+    </ion-nav-buttons>
+  </ion-nav-bar>
+
+  <ion-content padding="true">
+      <img class="profile-picture" src="../img/ava.png" alt="Profile Picture" width="100px" height="100px">
+      <ion-list id="profile-info-block">
+          <label class="item item-input" id="page-input1">
+              <input type="text" placeholder="Your name">
+          </label>
+          <label class="item item-input" id="page-input2">
+              <input type="email" placeholder="Email">
+          </label>
+      </ion-list>
+      <h4 id="page-heading2" style="color:#5F7A9B;font-weight:400;">DELIVERY ADDRESS</h4>
+      <ion-list id="page-list7">
+          <ion-item id="page-list-item9">{delivery.address}</ion-item>
+      </ion-list>
+      <div id="page-container2">
+          <ion-list id="page-list6">
+              <ion-item id="page-list-item10">{delivery.address}</ion-item>
+          </ion-list>
+          <button id="page-button3" style="text-align:left;" class="button button-positive  button-block">Add address</button>
+          <h4 id="page-heading1" style="color:#5F7A9B;font-weight:400;">SETTINGS</h4>
+          <form id="page-form1" class="list">
+              <ion-toggle toggle-class="toggle-positive" id="page-toggle1">Push notification</ion-toggle>
+          </form>
+      </div>
+      <div id="page-markdown4" style="color:#000000;">
+          <p>Rate app</p>
+      </div>
+      <div id="page-markdown5" style="color:#000000;">
+          <p>Report about problem</p>
+      </div>
+      <div id="page-markdown6" style="color:#000000;">
+          <p>About us</p>
+      </div>
+      <button id="page-button4" style="color:color: #6faaff;" class="button button-stable  button-block">Log out</button>
+  </ion-content>
+</ion-view>

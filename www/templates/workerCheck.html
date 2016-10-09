@@ -1,0 +1,16 @@
+<ion-view title="worker-check" id="worker-check-page">
+    <ion-content padding="true" class="has-header">
+      <div id="worker-check-header">
+          <p>Enter verification code we have sent to <span id="worker-code-number">{phone.number}</span></p>
+      </div>
+        <form id="workerCheck-form6" class="list">
+            <label>
+                <input id="worker-check-code" type="number" placeholder="type code">
+            </label>
+        </form>
+        <div id="auth-check-receive">
+            <p>You will receive your verification code within {receive.sec} seconds</p>
+        </div>
+        <button ui-sref="workerProfile" id="worker-start-work">START WORK</button>
+    </ion-content>
+</ion-view>

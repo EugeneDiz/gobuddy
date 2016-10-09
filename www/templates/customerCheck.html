@@ -1,0 +1,16 @@
+<ion-view title="customer-check" id="customer-check-page">
+    <ion-content padding="true" class="has-header">
+        <div id="customer-check-header">
+            <p>Enter verification code we have sent to <span id="customer-code-number">{phone.number}</span></p>
+        </div>
+        <form id="customerCheck-form5" class="list">
+            <label>
+                <input id="customer-check-code" type="number" placeholder="type code">
+            </label>
+        </form>
+        <div id="auth-check-receive">
+            <p>You will receive your verification code within {receive.sec} seconds</p>
+        </div>
+        <button ui-sref="customerProfile" id="customer-start-work">START WORK</button>
+    </ion-content>
+</ion-view>
